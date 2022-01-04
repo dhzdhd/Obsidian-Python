@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+asyncpg = "*"
+python-dotenv = "*"
+jishaku = "*"
+aiohttp = "*"
+loguru = "*"
+"dislash.py" = "*"
+discord-py-slash-command = "*"
+"discord.py" = "~=1.7.3"
+asyncpraw = "*"
+
+[dev-packages]
+black = "*"
+
+[requires]
+python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true
